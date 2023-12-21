@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>paper wala</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <script type="text/javascript" src="./script/main.js"></script>
+    <body>
+        <nav>
+            <img src="./img/logo.png" height="80" />
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="selected">Services</a></li>
+                <li><a href="clients.html">Clients<br /></a></li>
+                <li><a href="contacts.html">Contact<br /></a></li>
+            </ul>
+        </nav>
+        <h2>Services<hr /></h2>
+        <img id="myImg1" class='imgstyle' onclick="imgClicked(this);" src="./img/rs.jpg" title="Choose to Reuse" />
+        <img id="myImg1" class='imgstyle' onclick="imgClicked(this);" src="./img/wt.jpg" title="Reduce-Recycle-Reuse" />
+        <img id="myImg1" class='imgstyle' onclick="imgClicked(this);" src="./img/wp.jpg" title="Paper Waste" />
+        <img id="myImg6" class='imgstyle' onclick="imgClicked(this);" src="./img/hb.jpg" title="Hardboard Metal" />
+        <img id="myImg2" class='imgstyle' onclick="imgClicked(this);" src="./img/hm.jpg" title="Metal Waste" />
+        <img id="myImg3" class='imgstyle' onclick="imgClicked(this);" src="./img/wc.jpg" title="Plastic Waste" />
+        <img id="myImg4" class='imgstyle' onclick="imgClicked(this);" src="./img/ew.jpg" title="E-Waste" />
+        <img id="myImg5" class='imgstyle' onclick="imgClicked(this);" src="./img/mw.jpg" title="Metal Waste" />
+        <img id="myImg6" class='imgstyle' onclick="imgClicked(this);" src="./img/sm.jpg" title="Scrape Metal" />
+        <img id="myImg6" class='imgstyle' onclick="imgClicked(this);" src="./img/pe.jpg" title="Scrape Metal" />
+        <img id="myImg6" class='imgstyle' onclick="imgClicked(this);" src="./img/ms.jpg" title="Scrape Metal" />
+        <img id="myImg6" class='imgstyle' onclick="imgClicked(this);" src="./img/rrr.png" title="Scrape Metal" />
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close" onClick="closeModal();">&times;</span>
+            <img class="modal-content" id="img01" />
+            <div id="caption"></div>
+        </div>
+    </body>
+</html>
