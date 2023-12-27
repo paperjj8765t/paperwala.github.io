@@ -14,5 +14,5 @@ function closeModal() {
 }
 
 funcion validateDtls(){
-    alert();submit;
+    alert();return;
 }
