@@ -13,6 +13,6 @@ function closeModal() {
     modal.style.display = "none";
 }
 
-funcion validateDtls(){
+function validateDtls(){
     alert();return;
 }
